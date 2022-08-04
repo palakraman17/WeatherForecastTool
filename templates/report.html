@@ -1,0 +1,31 @@
+<html>
+<body>
+<div class="row">
+    <div class="col-md-6">
+            <h4> <b>Location: </b>{{ city }}, {{state}} - USA </h4>
+    </div>        
+</div>
+{% for period in periodList %}
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well">
+                <div class="row">
+                    <div class="col-xs-12"> 
+                        <div>
+                            <img src={{period.icon}} style = "float:left; margin:10px;width:20%;height:auto" > 
+                            <p><br/>
+                            <b>Forecast For : </b> {{ period.name}} <br/>
+                            <b>From : </b> {{period.startTime}} <br/>
+                            <b>To :</b> {{period.endTime}} <br/>
+                            <b>Temperature :  </b>  {{period.temperature }}°{{period.temperatureUnit}} | {{'%0.2f'| format((((period.temperature - 32)*5)/9)|float)}}°C <br/>
+                            <b>Details : </b> {{ period.detailedForecast}} <br/>
+                            </p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+{% endfor %} 
+</body>
+</html>
