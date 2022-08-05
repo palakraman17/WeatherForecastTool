@@ -1,6 +1,6 @@
 # Weather Forecast Tool
 
-This is a weather forecasting tool creating using using Python/Flask. Its a simple web application that shows weather info of the location based on the longitude and latiude. The API used for retrieving weather data is a free weather service from [National Weather Service](https://www.weather.gov/documentation/services-web-api&sa=D&source=calendar&ust=1641768438693965&usg=AOvVaw3OWCV8Z2DjkIpuF6eXz_L2).
+This is a weather forecasting tool creating using using Python/Flask. Its a simple web application that shows weather information of the location based on the longitude and latiude. The API used for retrieving weather data is a free weather service from [National Weather Service](https://www.weather.gov/documentation/services-web-api&sa=D&source=calendar&ust=1641768438693965&usg=AOvVaw3OWCV8Z2DjkIpuF6eXz_L2).
 
 ## Requirements ##
 * Python 3
