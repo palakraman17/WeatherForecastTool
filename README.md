@@ -9,4 +9,4 @@ This is a weather forecasting tool creating using using Python/Flask. Its a simp
 
 ## Run the Application ##
 * ``` python app.py ```
-* Then the application can be accessed at ``` http://127.0.0.1:5000 ``` or ``` http://localhost/:5000 ```
+* Then the application can be accessed at ``` http://127.0.0.1:5000 ``` or ``` http://localhost:5000 ```
